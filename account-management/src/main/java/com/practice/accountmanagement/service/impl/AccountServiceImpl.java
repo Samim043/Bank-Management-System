@@ -1,6 +1,7 @@
 package com.practice.accountmanagement.service.impl;
 
 import com.practice.accountmanagement.domain.constants.AccountsConstants;
+import com.practice.accountmanagement.domain.dto.AccountsDto;
 import com.practice.accountmanagement.domain.dto.CustomerDto;
 import com.practice.accountmanagement.domain.entity.Accounts;
 import com.practice.accountmanagement.domain.entity.Customer;
@@ -8,6 +9,7 @@ import com.practice.accountmanagement.repository.AccountsRepository;
 import com.practice.accountmanagement.repository.CustomerRepository;
 import com.practice.accountmanagement.service.IAccountService;
 import com.practice.accountmanagement.utils.exception.CustomerAlreadyExistsException;
+import com.practice.accountmanagement.utils.mapper.AccountsMapper;
 import com.practice.accountmanagement.utils.mapper.CustomerMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
