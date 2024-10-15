@@ -9,6 +9,7 @@ import com.practice.accountmanagement.repository.AccountsRepository;
 import com.practice.accountmanagement.repository.CustomerRepository;
 import com.practice.accountmanagement.service.IAccountService;
 import com.practice.accountmanagement.utils.exception.CustomerAlreadyExistsException;
+import com.practice.accountmanagement.utils.exception.ResourceNotFoundException;
 import com.practice.accountmanagement.utils.mapper.AccountsMapper;
 import com.practice.accountmanagement.utils.mapper.CustomerMapper;
 import lombok.AllArgsConstructor;
