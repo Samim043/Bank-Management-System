@@ -2,7 +2,6 @@ package com.practice.accountmanagement.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.*;
-import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Getter
