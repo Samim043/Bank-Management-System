@@ -5,6 +5,7 @@ import com.practice.cardmanagement.domain.constants.CardsConstants;
 import com.practice.cardmanagement.domain.dto.CardsDto;
 import com.practice.cardmanagement.domain.dto.ErrorResponseDto;
 import com.practice.cardmanagement.domain.dto.ResponseDto;
+import com.practice.cardmanagement.service.ICardsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
