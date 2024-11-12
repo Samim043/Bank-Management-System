@@ -25,16 +25,16 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 				contact = @Contact(
 						name = "Samim",
 						email = "srsamim043@gmail.com",
-						url = "https://www.eazybytes.com"
+						url = "url"
 				),
 				license = @License(
 						name = "Apache 2.0",
-						url = "https://www.eazybytes.com"
+						url = "url"
 				)
 		),
 		externalDocs = @ExternalDocumentation(
 				description = "Cards microservice REST API Documentation",
-				url = "https://www.eazybytes.com/swagger-ui.html"
+				url = "url"
 		)
 )
 public class CardManagementApplication {
