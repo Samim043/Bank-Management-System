@@ -1,15 +1,10 @@
-spring:
-  config:
-    activate:
-      on-profile: "prod"
-
 build:
   version: "1.0"
 
 cards:
   message: "Welcome to cards related prod APIs "
   contactDetails:
-    name: "Samim"
+    name: "Samim - Product Owner"
     email: "srsamim043@gmail.com"
   onCallSupport:
     - (617) 432-2356
